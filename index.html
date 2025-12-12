@@ -1,114 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="YOUR DESCRIPTION HERE" />
-        <meta name="author" content="YOUR AUTHOR NAME HERE" />
-        <title>Scrolling Nav - Start Bootstrap Template 5.3.7</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-   
-   <!-- Bootstrap v5.3.7 -->
-   <!-- LOAD BOOTSTRAP CSS - DO NOT DELETE -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">        
-   <!-- END LOADING BOOTSTRAP CSS -->
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Official website of the JMU Dukettes" />
+    <meta name="author" content="Sam Borromeo" />
+    <title>JMU Dukettes</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Meow+Script&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-      
-    <!-- Custom styles -->
-    <link href="custom.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="custom.css">
+</head>
 
+<body id="page-top">
 
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-            <div class="container px-4">
-                <a class="navbar-brand" href="#page-top">JMU Dukettes</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <!-- The hrefs here must match the ID attribute of the corresponding divs/containers -->
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top main-nav">
+        <div class="container px-4">
+            <a class="navbar-brand" href="#page-top">
+                <img src="assets/dukettelogo.png" alt="JMU Dukettes Logo" style="height:50px; width:auto;">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Meet the Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#coaches">Coaches</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#awards">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
             </div>
-        </nav>
-        <!-- Header-->
-        <header class="bg-primary bg-gradient text-white">
-            <div class="container px-4 text-center">
-                <h1 class="fw-bolder">Welcome to Scrolling Nav</h1>
-                <p class="lead">A functional Bootstrap 5 boilerplate for one page scrolling websites</p>
-                <a class="btn btn-lg btn-light" href="#about">Start scrolling!</a>
-            </div>
-        </header>
-        <!-- About section - the ID attribute value here must match the corresponding href in navigation -->
-        <!-- For example - this section with id="about" must match the href="#about" in the navigation -->
-        <section id="about">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>About this page</h2>
-                        <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
-                        <ul>
-                            <li>Clickable nav links that smooth scroll to page sections</li>
-                            <li>Responsive behavior when clicking nav links perfect for a one page website</li>
-                            <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
-                            <li>Minimal custom CSS so you are free to explore your own unique design options</li>
-                        </ul>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container text-center hero-content">
+            <h1 class="hero-title">JMU DUKETTES</h1>
+            <p class="hero-subtitle">The Official Dance Team of James Madison University</p>
+        </div>
+    </header>
+
+    <section id="about" class="section-padding">
+        <div class="container px-4">
+            <h2 class="section-title">About Us</h2>
+            <p class="lead">
+                The Dukettes are the official award-winning dance team of James Madison University. They are model representatives of JMU and serve as ambassadors for the university.
+                <br><br>
+                The rigorous season as a Dukette begins with summer practices in mid-July, in preparation for the upcoming season. The team attends the National Dance Alliance Collegiate Dance Team camp in August, where they learn various routines and participate in team bonding exercises. Before the school year begins, the Dukettes also attend the Marching Royal Dukes' Band Camp, which takes place the week before classes begin.
+                <br><br>
+                During the regular season, the Dukettes practice Monday through Friday, for a minimum of 3 hours each day, which they earn school credit for. The team performs during halftime with Virginia's Finest at each home football game. In addition, they perform at every home basketball game, make various appearances, and travel with the Marching Royal Dukes throughout the fall season. These performances include community, university, national, and international events.
+                <br><br>
+                The rigorous and rewarding season culminates in April with a trip to Daytona Beach, Florida, where the nationally acclaimed and award-winning team competes at the National Dance Alliance Collegiate Championship.
+                <br><br>
+                The JMU Dukettes hold National Titles in Division I Jazz from 2015, 2016, 2018 and 2021 and are the 2024 DIA Pom National Champions. While it is a huge commitment, being a part of the JMU Dukettes is an unforgettable and rewarding experience.
+            </p>
+        </div>
+    </section>
+
+    <section id="team" class="bg-light section-padding">
+        <div class="container px-4">
+            <h2 class="section-title text-center">Meet the Team</h2>
+
+            <div id="teamCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center flex-wrap gap-3">
+                            <img src="assets/dukette1.jpg" class="team-photo" alt="Dukette 1">
+                            <img src="assets/dukette2.jpg" class="team-photo" alt="Dukette 2">
+                            <img src="assets/dukette3.jpg" class="team-photo" alt="Dukette 3">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center flex-wrap gap-3">
+                            <img src="assets/dukette4.jpg" class="team-photo" alt="Dukette 4">
+                            <img src="assets/dukette5.jpg" class="team-photo" alt="Dukette 5">
+                            <img src="assets/dukette6.jpg" class="team-photo" alt="Dukette 6">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center flex-wrap gap-3">
+                            <img src="assets/dukette7.jpg" class="team-photo" alt="Dukette 7">
+                            <img src="assets/dukette8.jpg" class="team-photo" alt="Dukette 8">
+                            <img src="assets/dukette9.jpg" class="team-photo" alt="Dukette 9">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center flex-wrap gap-3">
+                            <img src="assets/dukette10.jpg" class="team-photo" alt="Dukette 10">
+                            <img src="assets/dukette11.jpg" class="team-photo" alt="Dukette 11">
+                            <img src="assets/dukette12.jpg" class="team-photo" alt="Dukette 12">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center flex-wrap gap-3">
+                            <img src="assets/dukette13.jpg" class="team-photo" alt="Dukette 13">
+                            <img src="assets/dukette14.jpg" class="team-photo" alt="Dukette 14">
+                            <img src="assets/dukette15.jpg" class="team-photo" alt="Dukette 15">
+                        </div>
                     </div>
                 </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#teamCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#teamCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-        </section>
-        <!-- Services section-->
-        <section class="bg-light" id="services">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>Services we offer</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-                 
-                    </div>
-                </div>
+        </div>
+    </section>
+
+    <section id="coaches" class="section-padding text-center">
+        <div class="container px-4">
+            <h2 class="section-title mb-2">Head Coach</h2>
+            <h4 class="coach-name mb-4">Taylor Kim Bailey</h4>
+            <div class="coach-photo-container mb-4">
+                <img src="assets/coach.jpg" class="coach-photo" alt="Coach Taylor Bailey">
             </div>
-        </section>
-        <!-- Contact section-->
-        <section id="contact">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>Contact us</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+            <p class="lead">
+                Taylor is an alumna of the University of Delaware where she was a four-year member of the nationally ranked UD Dance Team. In 2015, the team brought home two second place wins in Division I Jazz and Hip Hop at the Universal Dance Association Collegiate National Championships. Taylor graduated in 2016 with a B.S. in Management Information Systems and a Concentration in Accounting.
+                <br><br>
+                After graduating, Taylor spent the summer as a UDA staff instructor, traveling the country, running camps for high school and middle school dance teams. Taylor currently works as a Project Controller and lives in Harrisonburg with her husband and their two cats.
+            </p>
+        </div>
+    </section>
 
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2025</p></div>
-        </footer>
+    <section id="awards" class="bg-light section-padding">
+        <div class="container px-4">
+            <h2 class="section-title">Awards</h2>
+            <h3 class="mt-4">2024</h3>
+            <p class="lead">In only their second year competing in both the category and the division, the JMU Dukettes earned their FIRST TITLE in DIA Pom. This is the team's 5th national title since 2015.</p>
+            <h3 class="mt-4">2021</h3>
+            <p class="lead">After a year of challenges stemming from the COVID-19 pandemic and the cancellation of the 2020 NDA Nationals, the Dukettes competed virtually from Harrisonburg and placed first in the Virtual Jazz Division I category. This is the team’s fourth title.</p>
+            <h3 class="mt-4">2018</h3>
+            <p class="lead">At the 2018 NDA Nationals, the JMU Dukettes placed first in the Division I Jazz category — their third national title in four years.</p>
+            <h3 class="mt-4">2016</h3>
+            <p class="lead">In 2016, the Dukettes became the NDA National Champions in the Open Division I category for the second year in a row.</p>
+            <h3 class="mt-4">2015</h3>
+            <p class="lead">For the first time in program history, the Dukettes won first place in Open Division I at the 2015 NDA Collegiate Nationals. JMU also earned their first Top 5 finish in DIA Jazz.</p>
+        </div>
+    </section>
 
+    <section id="contact" class="section-padding">
+        <div class="container px-4">
+            <h2 class="section-title">Contact</h2>
+            <p class="lead"><strong>Email:</strong> officialjmudukettes@gmail.com<br><strong>Phone:</strong> (540) 251-6594</p>
+        </div>
+    </section>
 
+    <footer class="py-5 footer">
+        <div class="container px-4">
+            <p class="m-0 text-center">© JMU Dukettes 2025</p>
+            <p class="m-0 text-center">Photography by Samantha Borromeo</p>
+        </div>
+    </footer>
 
-
-
-        <!-- LOAD BOOTSTRAP 5.3.7 JAVASCRIPT - DO NOT DELETE -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-        <!-- END LOADING BOOTSTRAP JAVASCRIPT -->
-        <!-- JAVASCRIPT THAT MAKES THE SCROLLING MAGIC HAPPEN - DO NOT DELETE -->
-        <script src="js/scripts.js"></script>
-        <!-- END LOADING JAVASCRIPT -->
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
